@@ -12,7 +12,7 @@ struct MoviesApp: App {
     
     var body: some Scene {
         WindowGroup {
-            TrendingMovies(viewModel: .init())
+            SplashScreen() // Start with the splash screen
         }
     }
 }
