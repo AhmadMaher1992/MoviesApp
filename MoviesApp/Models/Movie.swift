@@ -23,6 +23,7 @@ struct Movie: Identifiable, Codable {
     let runtime: Int?
     let status: String?
     let video: Bool?
+    let budget: Int?
     let genres: [MovieGenre]?
     var character: String?
     var department: String?
